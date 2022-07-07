@@ -3,7 +3,7 @@
 ![ps](https://user-images.githubusercontent.com/100487390/177867491-2f3cdf8c-9f3e-429a-914a-0de35ae36a03.jpg)
 
 this terraform code build two ec2 and rds service with mysql database that can attach to worpress when he will be install
-and this system protected by waf app and the traffic is mangment by the alb.
+and this system protected by waf app and the traffic is management by the alb.
 
 vpc.tf: creates a vpc creates 4 private subnet and 2 public subnets creates  internet gateway to connect the VPC to the internet creates a 2 NAT gateway for the public subnet can access the internet 
          create two elastic ip to internet access. create two private route table  and one public route table and associating route table with the subnets.
