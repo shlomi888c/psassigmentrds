@@ -215,7 +215,7 @@ resource "aws_route_table_association" "private-subnet-2-route-table-association
 
 resource "aws_db_subnet_group" "db_subnet" {
   name       = "rds_db"
-  subnet_ids = [aws_subnet.private_subnet-3.id,aws_subnet.private_subnet-1.id,aws_subnet.private_subnet-2.id]
+  subnet_ids = [aws_subnet.private_subnet-3.id,aws_subnet.private_subnet-1.id,aws_subnet.private_subnet-2.id,aws_subnetaws_subnet.private_subnet-4.id]
 
   tags = {
     Name = "My DB subnet group"
